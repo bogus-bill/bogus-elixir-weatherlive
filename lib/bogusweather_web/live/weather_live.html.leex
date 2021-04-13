@@ -1,0 +1,8 @@
+
+<form action="#" phx-change="search">
+  <input type="text" name="q" value="<%= @query %>" placeholder="Enter city name here" list="results" autocomplete="off"/>
+</form>
+
+<%= for {city, weather} <- @results do %>
+<div><%= city %> : <%= weather %></div>
+<% end %>

@@ -17,7 +17,8 @@ defmodule BogusweatherWeb.Router do
   scope "/", BogusweatherWeb do
     pipe_through :browser
 
-    live "/", PageLive, :index
+    # live "/", PageLive, :index
+    live "/", WeatherLive, :index
   end
 
   # Other scopes may use custom stacks.
