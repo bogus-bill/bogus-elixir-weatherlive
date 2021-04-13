@@ -1,4 +1,4 @@
-![live_view](https://user-images.githubusercontent.com/58599538/114600877-23d2a680-9c95-11eb-99a9-7f532355879b.gif)
+![live_view](https://user-images.githubusercontent.com/58599538/114601078-61373400-9c95-11eb-9074-4c29dfe83bdf.gif)
 
 Displays live weather retrieved from https://home.openweathermap.org
 
