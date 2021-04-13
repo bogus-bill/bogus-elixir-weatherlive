@@ -1,19 +1,9 @@
-# Bogusweather
+Displays live weather retrieved from https://home.openweathermap.org
 
-To start your Phoenix server:
+Following deps are used:
+    - HTTPoison
+    - Poison
 
-  * Install dependencies with `mix deps.get`
-  * Install Node.js dependencies with `npm install` inside the `assets` directory
-  * Start Phoenix endpoint with `mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+Main functionalities can be found in the following files:
+    - search logic: lib/bogusweather_web/live/weather_live.ex
+    - template display: lib/bogusweather_web/live/weather_live.html.leex
